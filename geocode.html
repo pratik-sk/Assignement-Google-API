@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geocoding service</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+  	<div class="logo-div">Welcome to Startup Network</div>
+    <div id="map"></div>
+    <div id="input-panel-container">
+      <span class="enter-txt-msg">Enter Data in CSV format:(Id,Company,Name,City)</span>
+      <textarea class="input-txt" id="enterpreuner">Id,Company,Name,City,1,SpringerNature,Pratik,Ahmedabad,2,Crest,Akshay,Mumbai,3,Google,Sudhir,Nagpur</textarea>
+      <input class="submit-button" id="submit-input-txt" type="button" value="Show Marker">
+    </div>
+   <div id="show-label-container">
+   	
+   </div>
+    <div id="enterpreuner-table-container">
+
+    </div>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?region=in&language=hn-In&key=AIzaSyDOgCdLDxLXXFPc4zwrUSpSxFggl8T3PV4&callback=initMap">
+    </script>
+  </body>
+</html>
